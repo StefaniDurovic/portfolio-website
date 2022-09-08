@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Lighthouse portfolio</title>
+    <link rel="shortcut icon" href="images/favicon1.ico">
+    <!--CSS reset-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <!--My CSS-->
+    <link rel="stylesheet" type="text/css" href="css/style.production.css">
+</head>
+
+<body>
+    <header class="page__header">
+        
+        <img src="images/The Lighthouse Portfolio Logo.png" alt="Logo for The Lighthouse Portfolio" class="page__header--item">
+        
+        <nav class="page__header--item">
+            <ul role="menubar" class="navigation-list">
+                <li role="presentation">
+                    <a href="index.html" role="menuitem">Home</a>
+                </li>
+                <li role="presentation">
+                    <a href="work.html" role="menuitem">My work</a>
+                </li>
+                <li role="presentation">
+                    <a href="about.html" role="menuitem">About me</a>
+                </li>
+                <li role="presentation">
+                    <a href="contact.html" role="menuitem">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main class="page__main">
+        
+        <div>
+            Stefani Durovic<br>
+            Ardeystraße 193<br>
+            58453 Witten<br>
+            Deutschland<br>
+            <br>
+            <a href="tel: +49 1633854517">Tel +49 1633854517</a><br>
+            <a href="skype:live:stefanithefirst">Skype live:stefanithefirst</a><br>
+            <a href="mailto:office@careerfoundry.com">office@careerfoundry.com</a><br>
+            <a href="mailto:office@careerfoundry.com">Contact me</a>
+          </div>
+
+          <form action="" method="post">
+
+            <label for="name">Your name:*</label>
+            <input type="text" id="name" required name="user_name">
+
+            <label for="email">Email:*</label>
+            <input type="email" id="email" required name="user_email">
+
+            <label for="message">Message:*</label>
+            <textarea type="text" id="message" name="message" required rows="6" cols="50" maxlength="240"></textarea>
+            <p>The message must not exceed the maximum of 240 characters.</p>
+
+            <button type="Submit">Send message</button>
+
+          </form>
+
+    </main>
+
+    <footer class="page__footer">
+        <p>Find me on</p>
+        <div class="social-media">
+            <a href="#"><img src="images/1217104_github_icon.svg" alt="Github icon"></a>
+            <a href="#"><img src="images/1217106_linkedin_icon.svg" alt="LinkedIn icon"></a>
+            <a href="#"><img src="images/1217098_twitter_icon.svg" alt="Twiter icon"></a>
+        </div>
+    </footer>
+
+    
+    <script src="js/tota11y.min.js"></script>
+</body>
+</html>
