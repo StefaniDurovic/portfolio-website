@@ -51,7 +51,7 @@ body {
     padding-top: 15px;
   }
 
-  .page__main {
+.page__main {
     flex: 1 0 auto;
   }
 
@@ -63,6 +63,12 @@ body {
 
 h1, h2, h3 {
     font-family: 'Merriweather', serif;
+}
+
+.workpage__h1, .contactpage__h1 {
+  display: flex;
+  justify-content: center;
+  padding: 12px 0;
 }
 
 .navigation-list {
@@ -97,6 +103,48 @@ a:active {
 .main__a:active {
     background-color: var(--text-color);
     padding: 10px 2px;
+}
+
+.contactpage__grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  margin: 0 60px;
+}
+
+.contactpage__griditem1 {
+  padding-top: 130px;
+  padding-left: 40px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px
+}
+
+.contactpage__griditem1 a {
+  line-height: 35px;
+}
+
+.contactpage__griditem1 a:active {
+  background-color: var(--secondary-color);
+  padding: var(--button-padding);
+}
+
+.contactpage__griditem2 {
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+.contact-form {
+  border: 1px solid #042A2B;
+  padding: 20px 0 20px 20px;
+}
+
+.contact-form p {
+  font-size: small;
+  margin-top: -3px;
+}
+
+.email-input {
+  margin-left: 45px;
 }
 
 button,
@@ -146,6 +194,7 @@ button:hover, button:focus,
     align-items: center;
     padding-top: 30px;
 }
+
 .about__main p {
     padding: 0 250px;
     text-align: justify;
@@ -184,11 +233,11 @@ button:hover, button:focus,
     animation-timing-function: linear;
   }
 
-  .cloud-front {
+.cloud-front {
     animation: 30s cloud-move infinite alternate linear;
   }
 
-  .cloud-back {
+.cloud-back {
     animation: 34s cloud-move-reverse infinite alternate linear;
   }
 
@@ -203,13 +252,13 @@ button:hover, button:focus,
     padding: 20px;
   }
 
-  .grid__item:last-child {
+.grid__item:last-child {
     grid-column: 3 / 3;
     grid-row: 1 / 3;
   }
 
   @media all and (max-width: 500px) {
-    .grid {
+    .grid, .contactpage__grid {
       grid-template-columns: 1fr;
     }
   }
@@ -217,6 +266,10 @@ button:hover, button:focus,
   @media all and (min-width: 500px) and (max-width: 750px){
     .grid {
       grid-template-columns: 1fr 1fr;
+    }
+
+    .contactpage__grid {
+      grid-template-columns: 1fr;
     }
   }
 
