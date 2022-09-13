@@ -112,6 +112,7 @@ a:active {
 .main__a {
   color: #E15514;
   padding: 10px 0;
+  border: 20px #042A2B;
 }
 
 .main__a:active {
