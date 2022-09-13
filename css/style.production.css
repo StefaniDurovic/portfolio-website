@@ -217,10 +217,6 @@ button:hover, button:focus,
   border-color:#042A2B;
 }
 
-.profile__button {
-  margin-top: 40px;
-}
-
 .about__main {
   display: -webkit-box;
   display: -ms-flexbox;
