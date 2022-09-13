@@ -9,7 +9,7 @@
 Colors
 
 Primary: #90B6AD
-Secondary: #90B6AD
+Secondary: #F08756
 Text: #042A2B
 */
 
@@ -239,6 +239,30 @@ button:hover, button:focus,
 
 .cheers {
   line-height: 50px;
+}
+
+hr {
+  background-color: #4f9ab8;
+  border: #042A2B;
+  height: 3px;
+  width: 350px;
+}
+
+table {
+  background-color: #042A2B;
+}
+
+thead {
+  background-color: #4f9ab8;
+}
+
+tbody {
+  background-color: #90B6AD;
+}
+
+th, td {
+  padding: 7px 10px;
+  text-align: center;
 }
 
 .page__footer {
