@@ -130,12 +130,13 @@ a:active {
 
 .contactpage__griditem2 {
   padding-left: 30px;
+  padding-right: 30px;
   padding-top: 10px;
 }
 
 .contact-form {
   border: 1px solid #042A2B;
-  padding: 20px 0 20px 20px;
+  padding: 20px;
 }
 
 .contact-form p {
