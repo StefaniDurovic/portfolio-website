@@ -116,7 +116,8 @@ a:active {
   padding-left: 40px;
   font-size: 20px;
   font-weight: 400;
-  line-height: 25px
+  line-height: 25px;
+  margin: auto;
 }
 
 .contactpage__griditem1 a {
@@ -132,6 +133,7 @@ a:active {
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 10px;
+  margin: auto;
 }
 
 .contact-form {
