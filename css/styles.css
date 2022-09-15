@@ -138,7 +138,12 @@ a:active {
 
 .contact-form {
   border: 1px solid #042A2B;
-  padding: 20px;
+  padding: 3vh 2.5vw;
+}
+
+textarea {
+  height: 20vh;
+  width: 100%;
 }
 
 .contact-form p {
