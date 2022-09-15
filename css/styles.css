@@ -135,6 +135,10 @@ a:active {
   margin: auto;
 }
 
+.mobile-only {
+  display: none;
+}
+
 .contact-form {
   border: 1px solid #042A2B;
   padding: 3vh 2.5vw;
@@ -288,15 +292,39 @@ th, td {
     .grid, .contactpage__grid {
       grid-template-columns: 1fr;
     }
+
+    .contactpage__griditem1 {
+      display: none;
+    }
+
+    .mobile-only {
+      display: block;
+      border: 1px solid #042A2B;
+      margin: 2vh 2.5vw;
+      padding: 2vh 1vw;
+      text-align: center;
+    }
   }
 
-  @media all and (min-width: 500px) and (max-width: 750px){
+  @media all and (min-width: 500px) and (max-width: 927px){
     .grid {
       grid-template-columns: 1fr 1fr;
     }
 
     .contactpage__grid {
       grid-template-columns: 1fr;
+    }
+
+    .contactpage__griditem1 {
+      display: none;
+    }
+
+    .mobile-only {
+      display: block;
+      border: 1px solid #042A2B;
+      margin: 2vh 2.5vw;
+      padding: 2vh 1vw;
+      text-align: center;
     }
   }
 
