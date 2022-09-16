@@ -70,14 +70,26 @@ body {
 }
 
 .main__content {
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
 .profile {
   max-width: 700px;
-  margin: 0 auto;
+  margin: 0;
   padding-top: 50px;
 }
+
+.main___profile-text {
+  width: 350px;
+}
+
+.main___profile-text p {
+  width: 350px;
+  overflow-x: visible;
+}
+
 
 h1, h2, h3 {
   font-family: 'Merriweather', serif;
