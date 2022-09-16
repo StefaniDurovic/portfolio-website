@@ -298,89 +298,83 @@ th, td {
     .grid, .contactpage__grid {
       grid-template-columns: 1fr;
     }
-
-    .contactpage__griditem1 {
-      display: none;
-    }
-
-    .contactpage__griditem3 {
-      display: none;
-    }
-
+  
     .mobile-only {
       display: block;
-      border: 1px solid #042A2B;
+      border: 1px solid var(--text-color);
       margin: 2vh 2.5vw;
       padding: 2vh 1vw;
       text-align: center;
     }
-
-    .about__main p {
-      padding: 0 5vw;
-    }
-  
-    .about__main h1 {
-      padding: 0 2vw;
-      text-align: center;
-    }
-  
-    .about__main table {
-      margin: 0 2vw;
-    }
   }
-
+  
   @media all and (min-width: 500px) and (max-width: 927px){
     .grid {
       grid-template-columns: 1fr 1fr;
     }
-
+  
     .contactpage__grid {
       grid-template-columns: 1fr;
     }
-
-    .contactpage__griditem1 {
-      display: none;
-    }
-
-    .contactpage__griditem3 {
-      display: none;
-    }
-
+  
     .mobile-only {
       display: block;
-      border: 1px solid #042A2B;
-      margin: 2vh 2.5vw;
-      padding: 2vh 1vw;
+      border: 1px solid var(--text-color);
+      padding: 1vh 1vw 2vh 1vw;
+      margin: 3vh auto 0 auto;
       text-align: center;
-    }
-
-    .about__main p {
-      padding: 0 5vw;
-    }
-  
-    .about__main h1 {
-      padding: 0 2vw;
-      text-align: center;
-    }
-  
-    .about__main table {
-      margin: 0 2vw;
     }
   }
-
-  @media all and (max-width: 750px) {
+  
+  @media all and (max-width: 927px) {
     .grid {
       grid-gap: 10px;
     }
-
+  
+    .contactpage__griditem1 {
+      display: none;
+    }
+  
+    .contactpage__griditem3 {
+      display: none;
+    }
+  
+    .navigation-list li {
+      display: block;
+    }
+  
     .grid__item:last-child {
         grid-column: auto / auto;
         grid-row: auto / auto;
       }
+  
+    .about__main p {
+        padding: 0 5vw;
+      }
     
-    h1 {
-      font-size: 22px;
-    }
+    .about__main h1 {
+        padding: 0 2vw;
+        text-align: center;
+      }
+    
+    .about__main table {
+        margin: 0 2vw;
+      }
+  
+    .index__content--mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: none;
+        margin: 0 1.5vw;
+        text-align: center;
+      }
+    
+    .index__content--mobile-item {
+        padding: none;
+        margin: none;
+      } 
   }
 
   @keyframes color-change {
