@@ -359,6 +359,7 @@ th, td {
   
     .about__main h1 {
       padding: 0 2vw;
+      text-align: center;
     }
   
     .about__main table {
