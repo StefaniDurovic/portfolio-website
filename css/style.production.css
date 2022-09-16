@@ -135,7 +135,8 @@ font-weight: 400;
 margin: auto;
 }
 
-.contactpage__griditem1 a:active {
+.contactpage__griditem1 a:active,
+.contactpage__griditem3 a:active {
 background-color: #F08756;
 padding: 10px;
 }
