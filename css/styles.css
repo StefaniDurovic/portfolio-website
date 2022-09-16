@@ -275,7 +275,8 @@ th, td {
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;    
+    grid-gap: 20px;  
+    padding: 0 2vw;  
 }
 
 .grid__item {
@@ -304,6 +305,18 @@ th, td {
       padding: 2vh 1vw;
       text-align: center;
     }
+
+    .about__main p {
+      padding: 0 5vw;
+    }
+  
+    .about__main h1 {
+      padding: 0 2vw;
+    }
+  
+    .about__main table {
+      margin: 0 2vw;
+    }
   }
 
   @media all and (min-width: 500px) and (max-width: 927px){
@@ -325,6 +338,18 @@ th, td {
       margin: 2vh 2.5vw;
       padding: 2vh 1vw;
       text-align: center;
+    }
+
+    .about__main p {
+      padding: 0 5vw;
+    }
+  
+    .about__main h1 {
+      padding: 0 2vw;
+    }
+  
+    .about__main table {
+      margin: 0 2vw;
     }
   }
 
