@@ -247,8 +247,12 @@ th, td {
 }
 
 .page__footer p {
-    color: #010202;
+    color: #E15514;
     margin: 10px 0;
+}
+
+.svg-color {
+  filter: invert(44%) sepia(21%) saturate(7497%) hue-rotate(354deg) brightness(91%) contrast(93%)
 }
 
 #about-picture {
