@@ -302,6 +302,10 @@ th, td {
       display: none;
     }
 
+    .contactpage__griditem3 {
+      display: none;
+    }
+
     .mobile-only {
       display: block;
       border: 1px solid #042A2B;
@@ -316,6 +320,7 @@ th, td {
   
     .about__main h1 {
       padding: 0 2vw;
+      text-align: center;
     }
   
     .about__main table {
@@ -333,6 +338,10 @@ th, td {
     }
 
     .contactpage__griditem1 {
+      display: none;
+    }
+
+    .contactpage__griditem3 {
       display: none;
     }
 
