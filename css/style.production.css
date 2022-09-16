@@ -69,6 +69,10 @@ body {
           flex: 1 0 auto;
 }
 
+.main__content {
+  align-items: center;
+}
+
 .profile {
   max-width: 700px;
   margin: 0 auto;
