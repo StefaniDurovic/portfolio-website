@@ -145,6 +145,10 @@ a:active {
   padding: 3vh 2.5vw;
 }
 
+.form__element {
+  padding: 2px 0;
+}
+
 textarea {
   height: 20vh;
   width: 100%;
@@ -155,9 +159,9 @@ textarea {
   margin-top: -3px;
 }
 
-.email-input {
-  margin-left: 45px;
-}
+#email, #name{
+  width: 100%;
+  }
 
 button,
 .button {
@@ -375,6 +379,10 @@ th, td {
         padding: none;
         margin: none;
       } 
+
+    .index__content--mobile-item.button {
+        margin-top: 3vh;
+      }
   }
 
   @keyframes color-change {
