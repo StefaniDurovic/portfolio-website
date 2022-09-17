@@ -374,11 +374,6 @@ th, td {
         margin: 0 1.5vw;
         text-align: center;
       }
-    
-    .index__content--mobile-item {
-        padding: none;
-        margin: none;
-      } 
 
     .index__content--mobile-item.button {
         margin-top: 3vh;
