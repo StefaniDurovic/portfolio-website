@@ -164,6 +164,10 @@ border: 1px solid #042A2B;
 padding: 3vh 2.5vw;
 }
 
+.form__element {
+  padding: 2px 0;
+}
+
 textarea {
   height: 20vh;
   width: 100%;
@@ -174,8 +178,8 @@ font-size: small;
 margin-top: -3px;
 }
 
-.email-input {
-margin-left: 45px;
+#email, #name{
+width: 100%;
 }
 
 button {
