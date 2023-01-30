@@ -3,7 +3,7 @@
 
 ## Description
 
-This is a simple [portfolio website](https://stefanidurovic.github.io/portfolio-website-). It consists of a Homepage, About page, My Work and Contact page, where visitors can contact me through a contact form, or obtain my contact details. 
+This is a simple [portfolio website](https://stefanidurovic.github.io/portfolio-website/). It consists of a Homepage, About page, My Work and Contact page, where visitors can contact me through a contact form, or obtain my contact details. 
 
   
 
