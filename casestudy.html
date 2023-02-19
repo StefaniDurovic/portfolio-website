@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>React Movie App Case Study</title>
+    <link rel="shortcut icon" href="images/favicon1.ico">
+    <!--CSS reset-->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto:wght@300;400&display=swap"
+        rel="stylesheet">
+    <!--My CSS-->
+    <link rel="stylesheet" type="text/css" href="css/style.production.css">
+</head>
+
+<body>
+    <header class="page__header">
+
+        <img src="images/The_Lighthouse_Portfolio_Logo.png" alt="Logo for The Lighthouse Portfolio"
+            class="page__header--item">
+
+        <nav class="page__header--item">
+            <ul role="menubar" class="navigation-list">
+                <li role="presentation">
+                    <a href="index.html" role="menuitem">Home</a>
+                </li>
+                <li role="presentation">
+                    <a href="work.html" role="menuitem">My work</a>
+                </li>
+                <li role="presentation">
+                    <a href="about.html" role="menuitem">About me</a>
+                </li>
+                <li role="presentation">
+                    <a href="contact.html" role="menuitem">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="page__main case__main">
+
+        <h1>Movie App</h1>
+        <h3 style="margin-top: 10px;">Case study</h3>
+
+        <div class="container section">
+            <div class="row">
+                <div class="col">
+                    <h3>Overview</h3>
+                    <p>Movie App is a web app built using the MERN stack. It provides users with information about
+                        movies, directors, and genres. Users are able to create an account, update their personal data,
+                        browse movies and create a list of favorites.</p>
+                    <h3>Context and Objective</h3>
+                    <p>The app was a personal project developed during my CareerFoundry Full-stack program. The aim was
+                        to build the entire app from scratch, working both on its back end and front end. The front end
+                        was developed in two versions, one using React and the other using Angular (both can be seen in
+                        my portfolio). </p>
+                </div>
+                <div class="col">
+                    <img src="images/MyFlix_caseStudy/Main.png" class="casestudy__heroimage" alt="Picture of MovieApp main page">
+                </div>
+            </div>
+        </div>
+
+        <div class="container section">
+            <div class="row">
+                <div class="col">
+                    <h3>Approach</h3>
+                    <h4>Server-side</h4>
+                    <p>I created a RESTful API using Node.js and Express, that interacts with MongoDB (a non-relational
+                        database). The API can be accessed via Ajax requests (HTTP methods such as GET or POST). To
+                        retrieve data from and store data in the database, CRUD methods are used. The API provides movie
+                        information in JSON format.
+                        Postman was used for testing the API. For authentication and authorization, I used basic HTTP
+                        authorization and JWT authentication.
+                    </p>
+                    <h4>Client-side</h4>
+                    <p>When the server side was done, the next step was to build a responsive interface through which
+                        users can communicate with the server side (by making requests and receiving responeses). The
+                        client side was built using React and React Bootstrap. It provides users with the following
+                        views:
+                    <ul>
+                        <li>Login / Signup view</li>
+                        <li>Main view – shows a list of all movies and the search bar</li>
+                        <li>Single Movie view – shows data about the chosen movie and allows users to add the movie to
+                            their favorites</li>
+                        <li>Profile View – shows user’s data, their list of favorite movies (where they can also remove
+                            a movie from favorites) and form for updating their data</li>
+                    </ul>
+
+                    Postman was used for testing the API. For authentication and authorization, I used basic HTTP
+                    authorization and JWT authentication.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <img src="images/MyFlix_caseStudy/LogIn.png" class="row-img" alt="Picture of MovieApp login page">
+                </div>
+                <div class="col">
+                    <img src="images/MyFlix_caseStudy/Main.png" class="row-img" alt="Picture of MovieApp main page">
+                </div>
+                <div class="col">
+                    <img src="images/MyFlix_caseStudy/MovieView.png" class="row-img" alt="Picture of MovieApp single movie page">
+                </div>
+                <div class="col">
+                    <img src="images/MyFlix_caseStudy/Profile.png" class="row-img" alt="Picture of MovieApp user profile page">
+                </div>
+            </div>
+
+            <div class="row section">
+                <div class="col">
+                    <h3>Challenges</h3>
+                    <p>This project was really challenging for me, as it was my first encounter with using the terminal, as well as with React. Developing both server-side and client-side of an app was not an easy feat for someone with my level of knowledge at that time, but achieving it was all the more rewarding. I encountered many challenges while building this web app, but solving them brought me so much knolwedge in things I was unfamiliar with before. Perhaps the most challenging part was getting familiar with React, but it deffinitely gave me an insight into how powerful and useful React is, which made me want to deepen my knowledge and skills in this library. 
+                    </p>
+                    <h3>Duration</h3>
+                    <p>Due to the fact that this was the most challenging project in this CareerFoundry program, it took me longer to finish it than the rest of the projects in the program (around two months).
+                    </p>
+                    <h3>Credits</h3>
+                    <ul>
+                        <li>My role: Lead developer</li>
+                        <li>Tutor: Blaise Bakundukize</li>
+                        <li>Mentor: Ramadhan Aheebwa</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+
+
+    <footer class="page__footer">
+        <p>Find me on</p>
+        <div class="social-media">
+            <a href="https://github.com/StefaniDurovic" target="_blank"><img class="svg-color"
+                    src="images/1217104_github_icon.svg" alt="Github icon"></a>
+            <a href="https://www.linkedin.com/in/stefani-durovic-86454064/" target="_blank"><img class="svg-color"
+                    src="images/1217106_linkedin_icon.svg" alt="LinkedIn icon"></a>
+            <a href="#"><img class="svg-color" src="images/1217098_twitter_icon.svg" alt="Twiter icon"></a>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
