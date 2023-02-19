@@ -75,6 +75,27 @@ body {
   padding-top: 50px;
 }
 
+.section {
+  margin-top: 45px;
+  text-align: justify;
+}
+
+.casestudy__heroimage {
+  width: 500px;
+  -webkit-box-shadow: 5px 5px 15px -3px rgba(52, 58, 64, 0.99);
+          box-shadow: 5px 5px 15px -3px rgba(52, 58, 64, 0.99);
+}
+
+.row-img {
+  margin-top: 15px;
+  width:  250px;
+  height: 200px;
+  -o-object-fit: fill;
+     object-fit: fill;
+  -webkit-box-shadow: 3px 3px 10px -3px rgba(52, 58, 64, 0.99);
+          box-shadow: 3px 3px 10px -3px rgba(52, 58, 64, 0.99);
+}
+
 h1, h2, h3 {
   font-family: 'Merriweather', serif;
 }
@@ -118,6 +139,22 @@ a:active {
 .main__a:active {
   background-color: #042A2B;
   padding: 10px 2px;
+}
+
+.casestudy_button {
+  display: inline-block;
+  border: none;
+  font-family: inherit;
+  background-color: #F08756;
+  color: #042A2B;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
 }
 
 .contactpage__grid {
@@ -254,6 +291,14 @@ button:hover, button:focus,
 .about__main p {
   padding: 0 250px;
   text-align: justify;
+}
+
+.case__main {
+  display: flex;
+  flex-direction: column;
+  clear: both;
+  align-items: center;
+  padding-top: 45px;
 }
 
 .cheers {
