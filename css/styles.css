@@ -10,6 +10,7 @@ Text: #042A2B
   --primary-color: #90B6AD;
   --secondary-color: #F08756;
   --text-color: #042A2B;
+  --accent-color: #4f9ab8;
   --button-padding: 10px;
 }
 
@@ -54,6 +55,22 @@ body {
 .page__main {
     flex: 1 0 auto;
   }
+
+.impressum {
+  margin: 0 50px;
+  text-align: justify;
+}
+
+.a-impressum {
+  color: var(--primary-color);
+  text-decoration: none;
+  margin: 10px auto 0 auto;
+  width: fit-content;
+}
+
+.a-impressum:hover, .a-impressum:active, .a-impressum:focus {
+  color: var(--accent-color);
+}
 
 .profile {
     max-width: 700px;
@@ -263,8 +280,6 @@ button:hover, button:focus,
   text-indent: 0%;
 }
 
-
-
 .case__main {
   display: flex;
   flex-direction: column;
@@ -278,7 +293,7 @@ button:hover, button:focus,
 }
 
 hr {
-  background-color: #4f9ab8;
+  background-color: var(--accent-color);
   border: var(--text-color);
   height: 3px;
   width: 350px;
@@ -290,7 +305,7 @@ table {
 }
 
 thead {
-  background-color: #4f9ab8;
+  background-color: var(--accent-color);
 }
 
 tbody {

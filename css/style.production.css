@@ -69,6 +69,22 @@ body {
           flex: 1 0 auto;
 }
 
+.impressum {
+  margin: 0 50px;
+  text-align: justify;
+}
+
+.a-impressum {
+  color: #90B6AD;
+  text-decoration: none;
+  margin: 10px auto 0 auto;
+  width: fit-content;
+}
+
+.a-impressum:hover, .a-impressum:active, .a-impressum:focus {
+  color: #4f9ab8;
+}
+
 .profile {
   max-width: 700px;
   margin: 0 auto;
