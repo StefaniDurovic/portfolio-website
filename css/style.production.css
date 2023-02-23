@@ -141,6 +141,21 @@ a:active {
   padding: 10px 2px;
 }
 
+.about__a {
+  color: #E15514;
+  padding: 10px 0;
+  border: 20px #042A2B;
+  text-decoration: none;
+}
+
+.about__a:hover {
+  text-decoration: underline
+}
+
+.about__a:active {
+  text-decoration: underline;
+}
+
 .casestudy_button {
   display: inline-block;
   border: none;
@@ -291,6 +306,11 @@ button:hover, button:focus,
 .about__main p {
   padding: 0 250px;
   text-align: justify;
+  text-indent: 7%;
+}
+
+.about__main p.special {
+  text-indent: 0%;
 }
 
 .case__main {
@@ -310,6 +330,7 @@ hr {
   border: #042A2B;
   height: 3px;
   width: 350px;
+  margin-bottom: 15px;
 }
 
 table {
