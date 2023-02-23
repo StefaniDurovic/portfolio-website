@@ -123,6 +123,21 @@ a:active {
     padding: 10px 2px;
 }
 
+.about__a {
+  color: var(--secondary-color);
+  padding: 10px 0;
+  border: 20px var(--text-color);
+  text-decoration: none;
+}
+
+.about__a:hover {
+  text-decoration: underline
+}
+
+.about__a:active {
+  text-decoration: underline;
+}
+
 .casestudy_button {
   display: inline-block;
   border: none;
@@ -241,6 +256,11 @@ button:hover, button:focus,
 .about__main p {
     padding: 0 250px;
     text-align: justify;
+    text-indent: 10%;
+}
+
+.about__main p.special {
+  text-indent: 0%;
 }
 
 
@@ -262,6 +282,7 @@ hr {
   border: var(--text-color);
   height: 3px;
   width: 350px;
+  margin-bottom: 15px;
 }
 
 table {
