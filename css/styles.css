@@ -170,33 +170,26 @@ a:active {
 
 .contactpage__grid {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 .contactpage__griditem1 {
-  padding-top: 130px;
-  padding-left: 40px;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 25px;
-  margin: auto;
-}
-
-.contactpage__griditem1 a {
-  line-height: 35px;
-}
-
-.contactpage__griditem1 a:active,
-.contactpage__griditem3 a:active  {
-  background-color: var(--secondary-color);
-  padding: var(--button-padding);
-}
-
-.contactpage__griditem2 {
-  padding-left: 30px;
+  padding-left: 150px;
   padding-right: 30px;
   padding-top: 10px;
   margin: auto;
+}
+
+.contactpage__griditem2 {
+  font-size: 20px;
+  margin: 130px 180px 0 10px; 
+  text-align: justify;
+  line-height: 35px;
+}
+
+.contactpage__griditem2 a:active  {
+  background-color: var(--secondary-color);
+  padding: var(--button-padding);
 }
 
 .mobile-only {
@@ -288,10 +281,6 @@ button:hover, button:focus,
   padding-top: 45px;
 }
 
-.cheers {
-    line-height: 50px;
-}
-
 hr {
   background-color: var(--accent-color);
   border: var(--text-color);
@@ -381,11 +370,15 @@ th, td {
     }
   
     .mobile-only {
-      display: block;
-      border: 1px solid var(--text-color);
-      margin: 2vh 2.5vw;
-      padding: 2vh 1vw;
-      text-align: center;
+    display: block;
+    padding: 1vh 5vw 2vh 5vw;
+    margin: 3vh auto 0 auto;
+    text-align: justify;
+    line-height: 33px;
+  }
+
+    .contactpage__griditem1 {
+      padding-left: 30px;
     }
   }
   
@@ -398,12 +391,15 @@ th, td {
       grid-template-columns: 1fr;
     }
   
-    .mobile-only {
-      display: block;
-      border: 1px solid var(--text-color);
-      padding: 1vh 1vw 2vh 1vw;
-      margin: 3vh auto 0 auto;
-      text-align: center;
+     .mobile-only {
+    display: block;
+    padding: 1vh 5vw 2vh 5vw;
+    margin: 3vh auto 0 auto;
+    text-align: justify;
+    line-height: 33px;
+  }
+    .contactpage__griditem1 {
+      padding-left: 30px;
     }
   }
   
@@ -412,12 +408,12 @@ th, td {
       grid-gap: 10px;
     }
   
-    .contactpage__griditem1 {
+    .contactpage__griditem2 {
       display: none;
     }
-  
-    .contactpage__griditem3 {
-      display: none;
+
+    .contactpage__griditem1 {
+      padding-left: 30px;
     }
   
     .navigation-list li {
