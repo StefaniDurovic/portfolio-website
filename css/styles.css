@@ -78,6 +78,13 @@ body {
     padding-top: 50px;
   }
 
+.disclaimer {
+  background-color: #967f96;
+  font-size: 13px;
+  padding: 5px;
+  margin-top: 30px;
+}
+
 .section {
   margin-top: 45px;
   text-align: justify;
@@ -311,7 +318,7 @@ th, td {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 5px;
     background-color: var(--text-color);
     opacity: 0.7;
     padding: 20px 0;
